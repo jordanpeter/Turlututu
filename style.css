@@ -1,7 +1,19 @@
+html{
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body{
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 300;
+}
+
+/* ----------- Englobe le menu du haut ------------- */
+
 nav{
      width: 100%;
      margin: -15px -10px 0px -10px;
      padding-top: 5px;
+     padding-right: 5px;
      background:#363636;
      position:fixed;
 }
@@ -14,9 +26,9 @@ nav ul{
 
 nav img{
      width: 80px;
-     height:auto;
+     height: 25px;
      margin-top: -10px;
-     margin-bottom: -3px;
+     margin-bottom: -1px;
 }
 li{
      padding-left: 15px;
@@ -29,9 +41,75 @@ li{
 
 .Login{
      position: absolute;
-     right: 1%;
+     right: 18%;
 }
 
-.fa-user{
-     
+
+/* ----------- Englobe le menu du haut ------------- */
+
+/* ---------- S'occupera du header --------------*/
+
+header{
+     width: 100%;
+     height: 350px;
+     background-color:#3E87CA;
+     margin-left: -10px;
+     padding-right: 18px;
+     display: flex;
 }
+.JSGeek{
+     width: auto;
+     height: 300px;
+     position: relative;
+     left: 24%;
+     top: 12%;
+}
+
+.restdblogo{
+     width: 300px;
+     margin-top: 10%;
+
+}
+
+.SectGauche{
+     width: 37%;
+}
+
+.SectionCentrale{
+     width: 32%;
+     text-align: center;
+     margin-right: 35%;
+}
+
+.SectionCentrale h2{
+     color: white;
+     letter-spacing: 0;
+     font-weight: 300;
+
+}
+
+.SectionCentrale button{
+     font-size:150%;
+     padding: 16px 20px 16px 20px;
+     color: white;
+     font-weight: 300;
+     background-color:#E99002;
+     border-radius: 10px;
+     border-width: 3px;
+     border-color: white;
+}
+
+/* ---------- S'occupera du header --------------*/
+
+/* ----------- interligne ------------- */
+
+.interline{
+     height: 10%;
+}
+
+.interline h2{
+     text-align:center;
+     font-weight:lighter;
+}
+
+/* ----------- interligne ------------- */
