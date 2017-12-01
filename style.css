@@ -5,6 +5,7 @@ html{
 body{
      font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
      font-weight: 300;
+
 }
 
 /* ----------- Englobe le menu du haut ------------- */
@@ -45,7 +46,7 @@ li{
 }
 
 
-/* ----------- Englobe le menu du haut ------------- */
+/* ----------- FIN DU Englobe le menu du haut ------------- */
 
 /* ---------- S'occupera du header --------------*/
 
@@ -99,7 +100,7 @@ header{
      border-color: white;
 }
 
-/* ---------- S'occupera du header --------------*/
+/* ---------- FIN DU S'occupera du header --------------*/
 
 /* ----------- interligne ------------- */
 
@@ -112,4 +113,41 @@ header{
      font-weight:lighter;
 }
 
-/* ----------- interligne ------------- */
+/* -----------  FIN interligne ------------- */
+
+/* ---------- CONTAINER ------------- */
+
+.container{
+     background-color: #3E87CA;
+     width: auto;
+     height: 300px;
+     margin-left: -10px;
+     margin-right: -10px;
+     padding-bottom: 30px;
+}
+
+.container div{
+     float: left;
+     width: 50%;
+     margin-top: 30px;
+}
+
+.container .div2{
+     width: 50%;
+     margin-top: 30px;
+
+}
+
+.div1 h2, .div1 p{
+     padding-left: 35%;
+     color: white;
+     font-weight: lighter;
+}
+
+.div2 h2, .div2 p{
+     color: white;
+     font-weight: lighter;
+     padding-right: 35%;
+}
+
+/* ---------- FIN CONTAINER -------------->
