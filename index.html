@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     <script src="https://use.fontawesome.com/7b34f26681.js"></script>
+
      <title>Turlututu</title>
 </head>
 <body>
      <nav>
           <ul>
-               <li>Turlututu</li>
+               <img src="img/restdblogo.png" alt="logo">
                <li>Features</li>
                <li>Docs</li>
                <li>Blocs</li>
@@ -18,53 +21,63 @@
                <li>Pricing</li>
                <li>Contact</li>
                <li>Sign Up</li>
-               <li>Log In</li>          <!-- faudra mettre un logo avant le login -->
+               <li class="Login"><i class="fa fa-user" aria-hidden="true"> </i> Login</li>          <!-- faudra mettre un logo avant le login -->
           </ul>
      </nav>
 
      <header>
-          <img src="restdblogo.png" alt="Turlututu">
-               <h1>Turlututu</h1>
-                    <h2></h2>
-                         <button></button>
+     <div class="SectGauche">
+          <img src="img/JSGeek.png" alt="JSGeek" class="JSGeek" />
+     </div>
+     <div class="SectionCentrale">
+          <img src="img/restdblogo.png" alt="logo" class="restdblogo" />
+          <h2>The Plug and Play Database service</h2>
+          <button>Start building NOW</button>
+     </div>
      </header>
 
      <div class="interline">
-          <p>For awesome projects with deadlines</p>
+          <h2>For awesome projects with deadlines</h2>
      </div>
 
      <div class="container">
-          <h2>> Simple to use</h2>
-          <p>Turlututu.io is probably the easiest online NoSQL database backend for web and serverless applications. Model your information quickly. The data management application, schema and REST API are instantly available.</p>
+          <div class="div1">
+               <h2>> Simple to use</h2>
+               <p>Turlututu.io is probably the easiest online NoSQL database backend for web and serverless applications. Model your information quickly. The data management application, schema and REST API are instantly available.</p>
 
-          <h2>> Productive</h2>
-          <p>Collaborate and work with data in a worksapce on your desktop, laptop or smartphone. Quickly search through all your data. Secure access with roles.</p>
+               <h2>> Productive</h2>
+               <p>Collaborate and work with data in a worksapce on your desktop, laptop or smartphone. Quickly search through all your data. Secure access with roles.</p>
+          </div>
 
-          <h2>> Built for the modern web</h2>
-          <p>Designed for the modern web with high performance REST API and NoSQL MongoDB query language, server-side codehooks, user authentification (Auth0), Media Archive, Realtime messages and secure Ajax/CORS.</p>
+          <div class="div2">
+               <h2>> Built for the modern web</h2>
+               <p>Designed for the modern web with high performance REST API and NoSQL MongoDB query language, server-side codehooks, user authentification (Auth0), Media Archive, Realtime messages and secure Ajax/CORS.</p>
 
-          <h2>> More than a database</h2>
-          <p>turlututu.com databses can also serve web pages. Use HTML, Javascript, jQuery, Angular, ReactJS (or your favorite framework) on turlututu.com Pages with server-side data-binding</p>
+               <h2>> More than a database</h2>
+               <p>turlututu.com databses can also serve web pages. Use HTML, Javascript, jQuery, Angular, ReactJS (or your favorite framework) on turlututu.com Pages with server-side data-binding</p>
+          </div>
      </div>
 
      <div class="UnderContainer">
-          <p>Innovative teams gets more done with turlututu.com</p>
+          <h2>Innovative teams gets more done with turlututu.com</h2>
      </div>
 
      <div class="LogosContainer">
-          <img src="img/miles.png" alt="Miles">
-          <img src="img/apptruck.png" alt="App Truck">
-          <img src="img/spectrum.png" alt="Spectrum">
-          <img src="img/knowit.png" alt="Knowit">
-          <img src="img/hatchery.png" alt="Hatchery">
-          <img src="img/fwd.png" alt="FWD">
-          <img src="img/product-hunt-logo-horizontal-orange.png" alt="Product Hunt">
+          <ul>
+               <li><img src="img/miles.png" alt="Miles"></li>
+               <li><img src="img/apptruck.png" alt="App Truck" class="AppTruck"></li>
+               <li><img src="img/spectrum.png" alt="Spectrum"></li>
+               <li><img src="img/knowit.png" alt="Knowit"></li>
+               <li><img src="img/hatchery.png" alt="Hatchery"></li>
+               <li><img src="img/fwd.png" alt="FWD"></li>
+          </ul>
+          <img src="img/product-hunt-logo-horizontal-orange.png" alt="Product Hunt" class="ProductHunt">
      </div>
 
      <div class="underpage">
-          <button></button>
-          <button></button>
-          <button></button>
+          <button class="BlueButton">REST API ></button>
+          <button class="BlueButton"> Docs ></button>
+          <button class="OrangeButton">Start building ></button>
      </div>
 
      <footer>
@@ -74,7 +87,7 @@
                <li>Contact</li>
                <li>Terms & Conditions</li>
                <li>Privacy Policy</li>
-               <li>Copyright</li>
+               <li class="Copyright">Copyright</li>
           </ul>
      </footer>
 </body>

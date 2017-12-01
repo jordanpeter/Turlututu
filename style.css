@@ -1,8 +1,259 @@
-nav ul{
-     display: flex;
+html{
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-li{
-     padding-left: 10px;
-     padding-right;
+body{
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 300;
+
 }
+
+/* ----------- Englobe le menu du haut ------------- */
+
+nav{
+     width: 100%;
+     margin: -15px -10px 0px -10px;
+     padding-top: 5px;
+     padding-right: 5px;
+     background:#363636;
+     position:fixed;
+}
+
+nav ul{
+     display: flex;
+     flex-direction: row;
+     margin-left: 16%;
+}
+
+nav img{
+     width: 80px;
+     height: 25px;
+     margin-top: -10px;
+     margin-bottom: -1px;
+}
+li{
+     padding-left: 15px;
+     padding-right: 15px;
+     list-style-type: none;
+     color: white;
+     font-size: 14px;
+
+}
+
+.Login{
+     position: absolute;
+     right: 10%;
+}
+
+
+/* ----------- FIN DU Englobe le menu du haut ------------- */
+
+/* ---------- S'occupera du header --------------*/
+
+header{
+     width: 100%;
+     height: 350px;
+     background-color:#3E87CA;
+     margin-left: -10px;
+     padding-right: 18px;
+     display: flex;
+}
+.JSGeek{
+     width: auto;
+     height: 300px;
+     position: relative;
+     left: 24%;
+     top: 12%;
+}
+
+.restdblogo{
+     width: 300px;
+     margin-top: 10%;
+
+}
+
+.SectGauche{
+     width: 37%;
+}
+
+.SectionCentrale{
+     width: 32%;
+     text-align: center;
+     margin-right: 35%;
+}
+
+.SectionCentrale h2{
+     color: white;
+     letter-spacing: 0;
+     font-weight: 300;
+
+}
+
+.SectionCentrale button{
+     font-size:150%;
+     padding: 16px 20px 16px 20px;
+     color: white;
+     font-weight: 300;
+     background-color:#E99002;
+     border-radius: 10px;
+     border-width: 3px;
+     border-color: white;
+}
+
+/* ---------- FIN DU S'occupera du header --------------*/
+
+/* ----------- interligne ------------- */
+
+.interline{
+     height: 10%;
+}
+
+.interline h2{
+     text-align:center;
+     font-weight:lighter;
+}
+
+/* -----------  FIN interligne ------------- */
+
+/* ---------- CONTAINER ------------- */
+
+.container{
+     background-color: #3E87CA;
+     width: auto;
+     height: 300px;
+     margin-left: -10px;
+     margin-right: -10px;
+     padding-bottom: 30px;
+}
+
+.container div{
+     float: left;
+     width: 50%;
+     margin-top: 30px;
+}
+
+.container .div2{
+     width: 50%;
+     margin-top: 30px;
+
+}
+
+.div1 h2, .div1 p{
+     padding-left: 35%;
+     color: white;
+     font-weight: lighter;
+}
+
+.div2 h2, .div2 p{
+     color: white;
+     font-weight: lighter;
+     padding-right: 35%;
+}
+
+/* ---------- FIN CONTAINER -------------- */
+
+/* DEBUT DE L'INTERLIGNE 2 "UNDERCONTAINER" */
+
+.UnderContainer{
+     height: 10%;
+     text-align: center;
+}
+
+.UnderContainer h2{
+     font-weight:lighter;
+     color: grey;
+}
+
+/* FIN DE L'INTERLIGNE 2 "UNDERCONTAINER" */
+
+/* --------- Placement des Logos ------------------ */
+
+.LogosContainer{
+     height: 250px;
+     background-color: #EDEDEE;
+     margin-left: -10px;
+     margin-right: -10px;
+}
+
+.LogosContainer li{
+     display: inline-block;
+     margin-top: 30px;
+}
+
+.LogosContainer img{
+     width: 100px;
+}
+
+.LogosContainer ul{
+     text-align: center;
+}
+
+ul .AppTruck{
+     width: 50px;
+     vertical-align:bottom;
+     padding-top: 20px;
+}
+
+.LogosContainer .ProductHunt{
+     width: 200px;
+     margin-left: 45%;
+     margin-top: 20px;
+}
+/* --------- Fin de Placement des Logos ------------------ */
+
+
+/* ----------- 3 Buttons du Underpage ------------------------ */
+
+.underpage{
+     text-align:center;
+     margin-top: 30px;
+}
+
+.OrangeButton{
+     font-size:130%;
+     padding: 14px 18px 14px 18px;
+     color: white;
+     font-weight: 300;
+     background-color:#E99002;
+     border-radius: 10px;
+     border-width: 3px;
+     border-color: white;
+}
+
+.BlueButton{
+     font-size:130%;
+     padding: 14px 18px 14px 18px;
+     color: white;
+     font-weight: 300;
+     background-color:#2C5080;
+     border-radius: 10px;
+}
+
+/* ----------- FIN DES 3 Buttons du Underpage ------------------------ */
+
+/* ---------- Footer ----------- */
+footer{
+     width: 100%;
+     height: auto;
+     margin-top: 80px;
+     margin-left: -10px;
+     padding-right: 22px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     background-color:#363636;
+}
+
+footer ul{
+     display: flex;
+
+}
+
+.Copyright{
+     position: absolute;
+     right: 10%;
+}
+
+
+
+
+/* ---------- FIN DU Footer ----------- */
